@@ -3,7 +3,7 @@
 """
 Created on Wed Feb  7 12:05:57 2024
 
-@author: Giorgio
+@author: Giorgio & Maria
 """
 
 
@@ -113,8 +113,6 @@ def calCorr(df, thr=0.9):
     output:
         pairs := list of all correlation pairs
         geneDf := pandas df containing only pairs of genes with corr above thr
-    
-    
     """
     
     corrDf = df.corr()
