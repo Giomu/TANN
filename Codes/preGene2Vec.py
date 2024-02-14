@@ -9,6 +9,7 @@ Created on Wed Feb  7 12:05:57 2024
 
 import pandas as pd
 import numpy as np
+# import Gene2vec
 
 
 
