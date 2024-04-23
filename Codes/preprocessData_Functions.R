@@ -1,5 +1,5 @@
-library(rstudioapi)
-setwd(dirname(getActiveDocumentContext()$path))
+#library(rstudioapi)
+#setwd(dirname(getActiveDocumentContext()$path))
 
 
 #' @description Import dfCount and dfPheno given their paths
@@ -108,7 +108,7 @@ DeSeq_Norm <- function(df_count_train, df_pheno_train, df_count_test, df_pheno_t
 #' @returns classts: real test labels
 trainTest.split <- function(df, class, 
                             ratio = 0.3, 
-                            mincorr = 0.2, 
+                            mincorr = 0.4, 
                             seed = 123, 
                             corrFilter = TRUE){
   
